@@ -263,4 +263,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    vendor/samsung/ms013g/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
+    vendor/samsung/ms013g/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/samsung/ms013g/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/ms013g/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/ms013g/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/ms013g/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/libaudioeffectoffload.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/libaudiosa_sec.so \
+    vendor/samsung/ms013g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/ms013g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/ms013g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so
