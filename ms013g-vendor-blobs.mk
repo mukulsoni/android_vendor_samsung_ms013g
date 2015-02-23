@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/ms013g/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/ms013g/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/ms013g/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -298,6 +299,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/samsung/ms013g/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
     vendor/samsung/ms013g/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so
+
+# audiofx fix
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/samsung/ms013g/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/samsung/ms013g/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
 
 # adb
 PRODUCT_COPY_FILES += \
