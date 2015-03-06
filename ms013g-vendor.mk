@@ -18,6 +18,8 @@
 PRODUCT_PACKAGES += \
 	libtime_genoff \
 	libTimeService \
-	TimeService
+	TimeService \
+	DBPie \
+	SpritF
 
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor-blobs.mk)

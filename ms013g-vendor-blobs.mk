@@ -318,3 +318,8 @@ PRODUCT_COPY_FILES += \
 # adb
 PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
+
+# apps
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ms013g/proprietary/app/DBPie/DBPie.apk:system/priv-app/DBPie/DBPie.apk \
+    vendor/samsung/ms013g/proprietary/app/SpritF/SpritF.apk:system/priv-app/SpritF/SpritF.apk
