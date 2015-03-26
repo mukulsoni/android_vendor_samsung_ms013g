@@ -322,4 +322,6 @@ PRODUCT_COPY_FILES += \
 # apps
 PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/app/DBPie/DBPie.apk:system/priv-app/DBPie/DBPie.apk \
-    vendor/samsung/ms013g/proprietary/app/SpritF/SpritF.apk:system/priv-app/SpritF/SpritF.apk
+    vendor/samsung/ms013g/proprietary/app/SpritF/SpritF.apk:data/app/SpritF/SpritF.apk \
+    vendor/samsung/ms013g/proprietary/app/Viper/Viper.apk:system/app/Viper/Viper.apk \
+    vendor/samsung/ms013g/proprietary/app/Viper/lib/arm/libV4AJniUtils.so:system/app/Viper/lib/arm/libV4AJniUtils.so

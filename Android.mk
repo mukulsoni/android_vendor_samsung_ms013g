@@ -39,6 +39,16 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Viper
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/app/Viper/Viper.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := SpritF
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/app/SpritF/SpritF.apk
