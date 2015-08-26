@@ -57,7 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libril.so:system/blobs/ms013g/lib/libril.so \
     vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libconfigdb.so:system/blobs/ms013g/vendor/lib/libconfigdb.so \
     vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libril-qcril-hook-oem.so:system/blobs/ms013g/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libxml.so:system/blobs/ms013g/vendor/lib/libxml.so
+    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libxml.so:system/blobs/ms013g/vendor/lib/libxml.so \
+    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/librilutils.so:system/blobs/ms013g/lib/librilutils.so
 
 # Radio Single-sim
 PRODUCT_COPY_FILES += \
