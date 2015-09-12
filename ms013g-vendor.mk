@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 	TimeService \
 	DBPie \
 	Viper \
-	com.qualcomm.location
+	com.qualcomm.location \
+	Camera2
 
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor-blobs.mk)
