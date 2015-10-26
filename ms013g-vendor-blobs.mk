@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/samsung/ms013g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/samsung/ms013g/proprietary/lib/hw/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so \
     vendor/samsung/ms013g/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/samsung/ms013g/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/ms013g/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
