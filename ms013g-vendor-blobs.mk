@@ -16,69 +16,37 @@
 
 # Qualcomm framework Dual-sim
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libdiag.so:system/blobs/ms013g/vendor/lib/libdiag.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libdsutils.so:system/blobs/ms013g/vendor/lib/libdsutils.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libidl.so:system/blobs/ms013g/vendor/lib/libidl.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libqcci_legacy.so:system/blobs/ms013g/vendor/lib/libqcci_legacy.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libqmi.so:system/blobs/ms013g/vendor/lib/libqmi.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libqmi_cci.so:system/blobs/ms013g/vendor/lib/libqmi_cci.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libqmi_client_qmux.so:system/blobs/ms013g/vendor/lib/libqmi_client_qmux.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libqmi_csi.so:system/blobs/ms013g/vendor/lib/libqmi_csi.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libqmiservices.so:system/blobs/ms013g/vendor/lib/libqmiservices.so
-
-# Qualcomm framework Single-sim
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libdiag.so:system/blobs/ms01lte/vendor/lib/libdiag.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libdsutils.so:system/blobs/ms01lte/vendor/lib/libdsutils.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libidl.so:system/blobs/ms01lte/vendor/lib/libidl.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libqmi.so:system/blobs/ms01lte/vendor/lib/libqmi.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libqcci_legacy.so:system/blobs/ms01lte/vendor/lib/libqcci_legacy.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libqmi_cci.so:system/blobs/ms01lte/vendor/lib/libqmi_cci.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libqmi_client_qmux.so:system/blobs/ms01lte/vendor/lib/libqmi_client_qmux.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libqmi_csi.so:system/blobs/ms01lte/vendor/lib/libqmi_csi.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libqmiservices.so:system/blobs/ms01lte/vendor/lib/libqmiservices.so
+    vendor/samsung/ms013g/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
 
 # Radio Dual-Sim
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/bin/ATFWD-daemon:system/blobs/ms013g/bin/ATFWD-daemon \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/bin/ds_fmc_appd:system/blobs/ms013g/bin/ds_fmc_appd \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/bin/qmuxd:system/blobs/ms013g/bin/qmuxd \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/bin/radish:system/blobs/ms013g/bin/radish \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/bin/rild:system/blobs/ms013g/bin/rild \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libatparser.so:system/blobs/ms013g/lib/libatparser.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libcordon.so:system/blobs/ms013g/lib/libcordon.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libfactoryutil.so:system/blobs/ms013g/lib/libfactoryutil.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libomission_avoidance.so:system/blobs/ms013g/lib/libomission_avoidance.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libreference-ril.so:system/blobs/ms013g/lib/libreference-ril.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libsecnativefeature.so:system/blobs/ms013g/lib/libsecnativefeature.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libsecril-client.so:system/blobs/ms013g/lib/libsecril-client.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libsec-ril.so:system/blobs/ms013g/lib/libsec-ril.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libsec-ril-dsds.so:system/blobs/ms013g/lib/libsec-ril-dsds.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/libril.so:system/blobs/ms013g/lib/libril.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libconfigdb.so:system/blobs/ms013g/vendor/lib/libconfigdb.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libril-qcril-hook-oem.so:system/blobs/ms013g/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/vendor/lib/libxml.so:system/blobs/ms013g/vendor/lib/libxml.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms013g/lib/librilutils.so:system/blobs/ms013g/lib/librilutils.so
-
-# Radio Single-sim
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/bin/ATFWD-daemon:system/blobs/ms01lte/bin/ATFWD-daemon \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/bin/ds_fmc_appd:system/blobs/ms01lte/bin/ds_fmc_appd \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/bin/qmuxd:system/blobs/ms01lte/bin/qmuxd \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/bin/radish:system/blobs/ms01lte/bin/radish \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/bin/rild:system/blobs/ms01lte/bin/rild \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libatparser.so:system/blobs/ms01lte/lib/libatparser.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libcordon.so:system/blobs/ms01lte/lib/libcordon.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libfactoryutil.so:system/blobs/ms01lte/lib/libfactoryutil.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libomission_avoidance.so:system/blobs/ms01lte/lib/libomission_avoidance.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libreference-ril.so:system/blobs/ms01lte/lib/libreference-ril.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libsecnativefeature.so:system/blobs/ms01lte/lib/libsecnativefeature.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libsecril-client.so:system/blobs/ms01lte/lib/libsecril-client.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libsec-ril.so:system/blobs/ms01lte/lib/libsec-ril.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/lib/libril.so:system/blobs/ms01lte/lib/libril.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libconfigdb.so:system/blobs/ms01lte/vendor/lib/libconfigdb.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libril-qcril-hook-oem.so:system/blobs/ms01lte/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/ms013g/proprietary/blobs/ms01lte/vendor/lib/libxml.so:system/blobs/ms01lte/vendor/lib/libxml.so
+    vendor/samsung/ms013g/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/samsung/ms013g/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/samsung/ms013g/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/ms013g/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/ms013g/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/ms013g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    vendor/samsung/ms013g/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+    vendor/samsung/ms013g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    vendor/samsung/ms013g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/ms013g/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/ms013g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/ms013g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/ms013g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/ms013g/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
+    vendor/samsung/ms013g/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/ms013g/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/ms013g/proprietary/lib/librilutils.so:system/lib/librilutils.so
 
 #Common libs
 PRODUCT_COPY_FILES += \
@@ -110,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/ms013g/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/samsung/ms013g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/ms013g/proprietary/lib/hw/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so \
     vendor/samsung/ms013g/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/samsung/ms013g/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/ms013g/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
@@ -323,7 +290,6 @@ PRODUCT_COPY_FILES += \
 # apps
 PRODUCT_COPY_FILES += \
     vendor/samsung/ms013g/proprietary/app/DBPie/DBPie.apk:system/priv-app/DBPie/DBPie.apk \
-    vendor/samsung/ms013g/proprietary/app/Camera2/Camera2.apk:system/app/Camera2/Camera2.apk \
     vendor/samsung/ms013g/proprietary/app/Viper/Viper.apk:system/app/Viper/Viper.apk \
     vendor/samsung/ms013g/proprietary/app/Viper/lib/arm/libV4AJniUtils.so:system/app/Viper/lib/arm/libV4AJniUtils.so \
     vendor/samsung/ms013g/proprietary/app/com.qualcomm.location/com.qualcomm.location.apk:system/app/com.qualcomm.location/com.qualcomm.location.apk
